@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/chinese-rocks');
+      a{
+          text-decoration: none;
+          color:black;
+          font-family:  'Chinese Rocks Rg', sans-serif;
+      }
+      a:hover{
+          text-decoration: none;
+          color:#af2828;
+          font-family:  'Chinese Rocks Rg', sans-serif;
+      }
+      body{
+          background-color: white;
+      }
+      h1{
+        font-family:  'Chinese Rocks Rg', sans-serif;
+        justify-content: center;
+        text-align: center;
+        font-size:3vmax;
+      }
+      h2{
+        font-family:  'Chinese Rocks Rg', sans-serif;
+        justify-content: center;
+        text-align: center;
+        font-size:2vmax;
+        
+      }
+      input{
+          display: block;
+          left: 50%; transform:translatex(-50%); position: absolute;
+          font-size: 3vmax;
+          font-family: 'Chinese Rocks Rg', sans-serif;
+          color: black;
+          background: #af2828;
+    
+      }
+      textarea{
+        display: block;
+          left: 50%; transform:translatex(-50%); position: absolute;
+          font-size: 3vmax;
+          font-family: 'Chinese Rocks Rg', sans-serif;
+          color: black;
+          background: #af2828;
+          width: 50%;
+          height:20%;
+      }
+      button{
+        display: block;
+          left: 50%; transform:translatex(-50%); position: absolute;
+          font-size: 3vmax;
+          font-family: 'Chinese Rocks Rg', sans-serif;
+          color: black;
+          background: #af2828;
+      }
+      select{
+        display: block;
+          left: 50%; transform:translatex(-50%); position: absolute;
+          font-size: 1vmax;
+          width: 29%;
+          font-family: 'Chinese Rocks Rg', sans-serif;
+          color: black;
+          background: #af2828;
+          height: 5%;
+      }
+      ::selection
+      {
+        background: #af2828;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-size: 5vmax;">Shop</h1>
+    <hr>
+    <br>   <br>   <br>   <br>
+    <form method="POST" action="shop.php">
+        <h1>Nume</h1>
+        <input name="nume" type="text"><br><br>
+        <h1>Prenume</h1>
+        <input name="prenume" type="text"><br><br>
+        <h1>Adresa</h1>
+        <input name="adresa"type="text"><br><br>
+        <h1>Telefon</h1>
+        <input name="telefon" type="text"><br><br>
+        <h1>Produs</h1>
+        <select name="produs" id=""><br><br>
+            <option>--None--</option>
+            <option>|Periferice| LOGITECH
+                Mouse Gaming G502 Hero Negru</option>
+            <option>|Periferice| HYPERX Tastatura Gaming Mecanica HyperX Alloy Origins RGB, Red Switch, Layout INT, Negru</option>
+            <option>|Periferice| 
+                LOGITECH HYPERX Casti Audio Over Ear Cloud Orbit S</option>
+            <option>|Jocuri | Cyberpunk 2077 PC</option>
+            <option>|Jocuri | World of Warcraft</option>
+            <option>|Jocuri | Tekken 7 PC</option>
+            <option>|Sisteme| High-End-PC Core i9-10850K - RTX 3080</option>
+            <option>|Sisteme| High-End-PC Ryzen TR 3970X - RTX 3090 SLI</option>
+            <option>|Sisteme| High-End-PC Ryzen 9 3900X - RTX 3070</option>
+            <option>|Componente| Procesor AMD Ryzen 9 5950X 3.4GHz box</option>
+            <option>|Componente| Placa video MSI GeForce RTX 3090 SUPRIM X 24GB GDDR6X 384-bit</option>
+            <option>|Componente| Memorie Patriot Viper Steel 64GB DDR4 3600MHz CL18 1.35v Dual Channel Kit</option>
+      
+        </select>
+        <br><br>
+        <h1>Cod card</h1>
+        <input name="codcard" type="text">
+        <br><br><br>
+        <h1>Subiect</h1>
+        <textarea name="subiect" type="text"></textarea><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br> 
+        <button type="submit" name="comanda" src="index.html" > Cumpara </button>
+        <br><br><br><br><br><br>  <br><br><br><br><br><br>
+        </form>
+    
+</body>
+</html>
